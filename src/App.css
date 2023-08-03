@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+html, #root {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.gachaSim {
+    margin-left: 25px;
+}
+.textContainer {
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 300px;
+}
+  
+.text {
+    color: white;
+    font-size: 30px;
+    font-family: "Impact", sans-serif;
+}
+
+.buttonContainer {
+    background-color: black;
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button {
+    display: flex;
+    background-color: black;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: -70px;
+    padding: 10px 20px;
+    font-family: "Impact", sans-serif;
+    font-size: 20px;
+}
+
+.rateUpButton {
+    background-color:bisque;
+}
+
+.maryButton {
+    background-color: #009dc4;
+}
+
+.neonButton {
+    background-color: pink;
+}
+
+.ordinaryButton {
+    background-color: skyblue;
+}
+
+.socialButton {
+    background-color: palevioletred;
+}
+
+.powerButton {
+    background-color: darkred;
+}
+
+.makimaButton {
+    background-color: #c3544b;
+}
+
+.anneButton {
+    background-color: lightblue;
+}
+
+.rupeeButton {
+    background-color: #50C878;
+}
+
+.rightButtonContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rightButton {
+    display: flex;
+    background-color: black;
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-family: "Impact", sans-serif;
+    font-size: 20px;
+}
+
+.nikkeButton {
+    background-color: black;
+    color: white;
+}
+
+.pastButton {
+    background-color: black;
+    color: white;
+}
+
+.middleButtonContainer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 375px;
+    height: 100px;
+}
+
+.middlePastButtonContainer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 375px;
+    margin-right: 40px;
+    height: 100px;
+}
+
+.middleButton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    font-family: "Impact", sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50%;
+    margin: 0 170px;
+}
+
+.middleButton:last-child {
+    margin-left: 0;
+}
+
+.bannerImage {
+    width: 300px;
+    height: auto;
+    margin-left: 140px;
+    position: absolute;
+    top: 100px;
+    left: 435px;
+    z-index: 3; 
+}
+
+
+.nikke.rarity-R {
+    color: cornflowerblue;
+}
+  
+.nikke.rarity-SR {
+    color: #BF40BF;
+}
+
+.nikke.rarity-SSR, .nikke.rarity-RateUp, .nikke.rarity-RateUp2, .nikke.rarity-RateUp3, .nikke.rarity-RateUp4, .nikke.rarity-RateUp5, .nikke.rarity-RateUp6 {
+    color: gold;
+}
+
+.nikke.rarity-Pilgrim {
+    color: crimson;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.result-nikke {
+    flex: 0 0 calc(20% - 10px);
+    margin: 5px;
+}
+
+.resultText {
+    color:white;
+}
+
+.exitButton button {
+    display: block;
+    color: white;
+    background-color: black;
+    width: 3%;
+    font-size: 12pt;
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top:0;
+    right:0;
+}
