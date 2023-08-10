@@ -5,4 +5,7 @@ A React front-end web application that simulates the recruitment (gacha) mechani
 Assets used in this project were either found from official Nikke social media posts, in-game screenshots, and/or the Nikke Database of Victory (https://nikke-db.pages.dev/).  
 
 ## Notes
-Currently this only works on a local server.
+#### Requirements
+- Node.js
+- Vite
+To run on a local server type 'npm run dev' in terminal
