@@ -8,4 +8,5 @@ Assets used in this project were either found from official Nikke social media p
 #### Requirements
 - Node.js
 - Vite
+
 To run on a local server type 'npm run dev' in terminal
